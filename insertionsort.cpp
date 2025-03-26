@@ -52,9 +52,9 @@ void insertionSort(){ // Procedure InsertionSort
 
 void display(){
     cout << endl; // Output baris kosong
-    cout << "===================" << endl; 
+    cout << "================================" << endl; 
     cout << "Total Pass = " << n - 1 <<  endl; // count element movement
-    cout << "======================" << endl; // Output ke layar
+    cout << "=================================" << endl; // Output ke layar
     cout << "Element Array yang telah tersusun" << endl; // Ouput ke layar
     cout << "=================================" << endl; // Ouput ke layar
 
