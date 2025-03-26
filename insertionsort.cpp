@@ -13,7 +13,7 @@ void input(){ // Procedure input
             break;
         }
         else{
-            cout << "\nArray yang anda masukkan maksimal 20\n"; // Menampilkan pesan jika data lebih dari 20
+            cout << "\nArray yang anda masukkan maksimal 20 Elemen.\n"; // Menampilkan pesan jika data lebih dari 20
         }
     }
     cout << endl; // Membuat jarak per baris program
@@ -49,13 +49,13 @@ void display(){
     cout << "================================" << endl; 
     cout << "Total Pass = " << n - 1 <<  endl; // count element movement
     cout << "=================================" << endl; // Output ke layar
-    cout << "Element Array yang telah tersusun" << endl; // Ouput ke layar
-    cout << "=================================" << endl; // Ouput ke layar
+    cout << "Element Array yang telah tersusun" << endl; // Output ke layar
+    cout << "=================================" << endl; // Output ke layar
 
     for (int j = 0; j < n; j++){ // Looping dengan j dimulai dari 0 hingga n-1
         cout << arr[j] << endl; // Output ke layar
     }
-    cout << endl; // Ouput baris kosong    
+    cout << endl; // Output baris kosong    
 }
 
 int main(){
